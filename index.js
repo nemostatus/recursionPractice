@@ -16,8 +16,8 @@ function create(event){
 function inner(){
     
     let num = document.getElementById("num").value
-    while(count <= num){
-    document.getElementById("divDisplay").innerHTML += `<div> Div number ${count}.</div>`
+    while(count < num){
+    document.getElementById("divDisplay").innerHTML += `<div> Div number ${count+1}.</div>`
     count++
     inner()
 }
