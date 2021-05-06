@@ -50,3 +50,7 @@ It can be used instead of a loop.
 If no one stops it, it'll recurse forever and crash your program.
 A base case is a condition that stops the recursion. Don't forget to add them!
 Loops use extra state variables for tracking and counting, while recursion only uses the provided parameters.
+
+sitepoint with the explaination of why- 
+Recursion is best applied when you need to call the same function repeatedly with different parameters from within a loop. 
+So when you want the loop to be dynamic, use recursion.
