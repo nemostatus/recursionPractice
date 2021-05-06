@@ -25,7 +25,13 @@ function inner(){
 inner()}
 
 function javascriptTutorialExample(fromNumber){
-    console.log(fromNumber)
+    console.log(fromNumber);
+
+    let nextNumber = fromNumber - 1;
+
+    if (nextNumber > 0) {
+        javascriptTutorialExample(nextNumber);
+    }
 }
 
 javascriptTutorialExample(10)
