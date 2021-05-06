@@ -54,3 +54,4 @@ Loops use extra state variables for tracking and counting, while recursion only 
 sitepoint with the explaination of why- 
 Recursion is best applied when you need to call the same function repeatedly with different parameters from within a loop. 
 So when you want the loop to be dynamic, use recursion.
+In many cases, recursion is the most direct way to solve a complex problem. (this seems accurate because most algorithms use recursion , binary trees, etc.)
