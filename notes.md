@@ -42,3 +42,11 @@ countDownFrom(5);
 // 3
 // 2
 // 1
+
+Whichever approach you pick, always remember that at some point it needs to be stopped.
+
+Recursion is when a function calls itself until someone stops it.
+It can be used instead of a loop.
+If no one stops it, it'll recurse forever and crash your program.
+A base case is a condition that stops the recursion. Don't forget to add them!
+Loops use extra state variables for tracking and counting, while recursion only uses the provided parameters.
